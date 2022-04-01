@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Marcellus+SC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/diseño.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos</title>
+</head>
+
+<body class="bodygato">
+    <!--Bloque-Cabecera-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+            <div class="container">
+                <a href="../Accediendo/index.html" class="navbar-brand"><img class="imagen" src="../img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active">Bienvenido:Ivan</a></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Accediendo/editarperfil.html" class="nav-link active" aria-current="page">Editar
+                                perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Accediendo/administrarmascotas.html" class="nav-link active"
+                                aria-current="page">Administrar
+                                mascotas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Adoptar
+                            </a>
+                            <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="../Accediendo/perros.html" class="nav-link active"
+                                        aria-current="page">Perros</a></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../Accediendo/gatos.html" class="nav-link active"
+                                        aria-current="page">Gatos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Accediendo/conocenos.html" class="nav-link active"
+                                aria-current="page">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Accediendo/donar.html" class="nav-link active" aria-current="page">Donar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link active" aria-current="page"><i
+                                    class="bi bi-box-arrow-right  iconosalir"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Ventana Modal de gato1-->
+        <div class="modal fade" id="modalgato1">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header d-flex modalgatoscenter">
+                        <img class="modalgatos" src="../img/adoptargato1.jpg">
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Nombre:</strong> Luca</p>
+                        <p><strong>Raza:</strong> Siamés</p>
+                        <p><strong>Tamaño:</strong>Pequeño</p>
+                        <p><strong>Edad:</strong> 7 meses</p>
+                        <p><strong>Sexo:</strong> Macho</p>
+                        <p><strong>Carácter:</strong> Muy curioso y juguetón. Le encanta explorar lo que encuentra a su
+                            alrededor</p>
+                        <p><strong>¿Ha convivido con otros animales?:</strong> Sí, ha convivido con otros gatos</p>
+                        <p><strong>¿Dónde vive?:</strong> SPAP Alondra Dupont</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                                href="../Accediendo/gatos.html">Volver</a></button>
+                        <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                                href="">Adoptar</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Ventana Modal de gato2-->
+    <div class="modal fade" id="modalgato2">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato2.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Perla</p>
+                    <p><strong>Raza:</strong> Persa</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 4 años</p>
+                    <p><strong>Sexo:</strong> Hembra</p>
+                    <p><strong>Carácter:</strong> Muy tranquila, le encanta pasar las tardes durmiendo sobre algo
+                        blandito, aunque sea una persona</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> No</p>
+                    <p><strong>¿Dónde vive?:</strong> Hogar Refugio La Candela</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Ventana Modal de gato3-->
+    <div class="modal fade" id="modalgato3">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato3.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Lumiere</p>
+                    <p><strong>Raza:</strong>Británico de pelo corto</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 2 años</p>
+                    <p><strong>Sexo:</strong> Macho</p>
+                    <p><strong>Carácter:</strong> Muy tranquilo y cariñoso, le encanta subirse a sitios altos y buscar
+                        caricias</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> Sí, ha convivido con otros gatos</p>
+                    <p><strong>¿Dónde vive?:</strong> Triple A Marbella (Málaga)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Ventana Modal de gato4-->
+    <div class="modal fade" id="modalgato4">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato4.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Roma</p>
+                    <p><strong>Raza:</strong>Americano de pelo corto</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 3 años</p>
+                    <p><strong>Sexo:</strong> Hembra</p>
+                    <p><strong>Carácter:</strong> Muy independiente, le gusta que le acaricien lo justo. Le encanta
+                        tumbarse donde de el sol a dormir</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong>Sí, ha convivido con otros perros y gatos</p>
+                    <p><strong>¿Dónde vive?:</strong> La Gran Familia (Sevilla)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Ventana Modal de gato5-->
+    <div class="modal fade" id="modalgato5">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato5.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Ralph</p>
+                    <p><strong>Raza:</strong> Egipcio</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 6 meses</p>
+                    <p><strong>Sexo:</strong> Macho</p>
+                    <p><strong>Carácter:</strong>Muy juguetón aunque un poco asustadizo. Le encanta que lo acaricien</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> Sí, ha convivido con perros</p>
+                    <p><strong>¿Dónde vive?:</strong> Protectora el Buen Amigo (Sevilla)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Ventana Modal de gato6-->
+    <div class="modal fade" id="modalgato6">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato6.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Rómulo</p>
+                    <p><strong>Raza:</strong> Fold escocés</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 5 años</p>
+                    <p><strong>Sexo:</strong> Macho</p>
+                    <p><strong>Carácter:</strong>Muy independiente. No le gusta que lo persigan, él decide cuándo pueden
+                        acariciarle. Pasa tardes enteras durmiendo</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> Sí, ha convivido con otros gatos</p>
+                    <p><strong>¿Dónde vive?:</strong> ADANA (Málaga)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Ventana Modal de gato7-->
+    <div class="modal fade" id="modalgato7">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato7.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Rubí</p>
+                    <p><strong>Raza:</strong> Bombay</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 4 meses</p>
+                    <p><strong>Sexo:</strong> Hembra</p>
+                    <p><strong>Carácter:</strong>Muy curiosa y juguetona, le encanta explorar todo a su alrededor. Le
+                        gusta jugar a esconderse</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> No</p>
+                    <p><strong>¿Dónde vive?:</strong> ARCA (Jaén)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <!--Ventana Modal de gato8-->
+    <div class="modal fade" id="modalgato8">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato8.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Tigre</p>
+                    <p><strong>Raza:</strong> Común europeo</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 3 años</p>
+                    <p><strong>Sexo:</strong> Macho</p>
+                    <p><strong>Carácter:</strong>Tranquilo y curioso, apenas hace ruido. Le encanta dormir y ser
+                        acariciado todo el rato</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> Sí, ha convivido con otros perros y gatos</p>
+                    <p><strong>¿Dónde vive?:</strong> ASANDA (Sevilla)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Ventana Modal de gato9-->
+    <div class="modal fade" id="modalgato9">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header d-flex modalgatoscenter">
+                    <img class="modalgatos" src="../img/adoptargato9.jpg">
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nombre:</strong> Levi</p>
+                    <p><strong>Raza:</strong> Romano</p>
+                    <p><strong>Tamaño:</strong>Pequeño</p>
+                    <p><strong>Edad:</strong> 5 meses</p>
+                    <p><strong>Sexo:</strong> Macho</p>
+                    <p><strong>Carácter:</strong>Muy juguetón y mimoso, le encanta jugar con las personas y otros
+                        animales</p>
+                    <p><strong>¿Ha convivido con otros animales?:</strong> Sí, ha convivido con otros gatos y perros</p>
+                    <p><strong>¿Dónde vive?:</strong> Animales Solidarios de Alhama (Granada)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="../Accediendo/gatos.html">Volver</a></button>
+                    <button type="submit" class="btn  btn-success btn-block col-12"> <a class="decoracionbotones"
+                            href="">Adoptar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <h1 class="centraradoptagatos pb-5 pt-3">Adopta a un gato</h1>
+    <section class="gatosparaAdoptar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato1"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato1.jpg"></a>
+
+                </div>
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato2"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato2.jpg"></a>
+
+                </div>
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato3"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato3.jpg"></a>
+
+                </div>
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato4"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato4.jpg"></a>
+
+
+                </div>
+                <div class="col-sm-4">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato5"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato5.jpg"></a>
+
+                </div>
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato6"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato6.jpg"></a>
+
+                </div>
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato7"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato7.jpg"></a>
+
+                </div>
+                <div class="col-sm-4 ">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato8"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato8.jpg"></a>
+
+                </div>
+                <div class="col-sm-4  paddinggatos">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalgato9"
+                        href="#">
+                        <img class="imagenesgatosadoptar" src="../img/adoptargato9.jpg"></a>
+
+                </div>
+            </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer" class="pt-3 px-3 pb-1  fixed-bottom">
+        <div class="container-fluid">
+            <p>Direccion: C/Ancora <span>|</span> <span>Redes sociales:</span> <a href="" target="_blank"
+                    class="badge social twitter"><i class="bi bi-twitter fs-5"></a></i>
+                <a href="" target="_blank" class="badge social instagram"> <i class="bi bi-instagram fs-5"></a></i>
+                <a href="" target="_blank" class="badge social facebook"> <i
+                        class="bi bi-facebook fs-5"></a></i><span>|</span> Contacto: <span> Correo:ANC@gmail.com</span>
+                <span>|</span><span> Telefono:622536895</span>
+            </p>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

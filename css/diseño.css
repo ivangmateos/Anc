@@ -1,0 +1,198 @@
+/*Inicio*/
+.iconosalir:hover{
+   color:black;
+}
+.textoadoptanocompres{
+    font-family: 'Bebas Neue', cursive;
+}
+.imagen{
+    width:100px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#carouselExampleFade img{
+    height:82.4vh;
+}
+
+.imagenesdeinicio{
+    width: 40%;
+}
+#navbarDropdownMenuLink{
+    color: white;
+}
+.dropdown-item{
+    color: white;
+}
+#what-learn{
+    text-align: center;
+}
+
+.alinearlasletras{
+   
+    text-align: center;
+    height: 8vh;
+    color: black;
+}
+.letrasennegro{
+    font-weight: bold;
+}
+/*Perros*/
+.perrosparaAdoptar{
+  text-align: center;
+}
+.paddingperros{
+    padding-bottom: 20%;
+}
+.centraradoptaperros{
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: 'Marcellus SC', serif;
+}
+
+.imagenesperrosadoptar{
+    width: 60%;
+    padding-bottom: 15%;
+}
+.modalperros{
+    width: 50%;
+}
+.modalperroscenter{
+      justify-content: center;
+}
+.bodyperro{
+ background-color: #e5dbcc;
+}
+.decoracionbotones{
+text-decoration: none;
+color: white;
+}   
+.decoracionbotones:hover{
+    color:black;
+}
+
+.imagenesperrosadoptar:hover{
+opacity: 70%;
+ }  
+
+/*Gatos*/
+.modalgatos{
+    width: 50%;
+  
+}
+.bodygato{
+    background-color: #e5dbcc;
+   }
+.paddinggatos{
+    padding-bottom: 20%;
+}
+.modalgatoscenter{
+    justify-content: center;
+}
+.gatosparaAdoptar{
+    text-align: center;
+
+  }
+  .centraradoptagatos{
+      text-align: center;
+      padding-bottom: 1%;  
+        font-family: 'Marcellus SC', serif;
+  }
+
+  .imagenesgatosadoptar{
+      width: 60%;
+      padding-bottom: 15%;
+  }
+
+.imagenesgatosadoptar:hover{
+        opacity: 70%;
+         }      
+
+  /*Registro*/
+  #discussions{
+      padding-bottom: 1%;
+  }
+
+  .datosbasicos,.datosextras,.datosdecontacto{
+    margin-top: 1%;
+    font-family: 'Courier Prime', monospace; 
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-image: initial;  
+    background-color: white;
+
+}
+
+.datosbasicos>p{
+    font-family: 'Marcellus SC', serif; 
+    text-decoration: underline;   
+     font-weight: bold;
+     font-size: 1.75rem;
+}
+.datosextras>p{
+    font-family: 'Marcellus SC', serif; 
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.datosdecontacto>p{
+    font-family: 'Marcellus SC', serif; 
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.bodyregistro{
+    background-image: url("../img/60-606107_huella-de-perro-png-fondos-de-huellas-de.png");
+}
+
+.contenedorletras{
+    font-weight: bold;
+}
+#actualizarperfil{
+    text-decoration: none;
+    color: white;
+}
+/*¿Que hacemos?*/
+.imagenquehacemos{
+    width:57%;
+}
+#textoyvideoconocenos{
+    text-align: center;
+    color: black;  
+}
+.videoconocenos{
+    width: 70%;
+    height: 315px;
+}
+#video{
+   background-image: url("../img/fondodevideoconocenos.png"); 
+   background-repeat: no-repeat;
+}
+/*Administrarmascotas*/
+.marginbot{
+  padding-bottom: 20%;
+}
+.letras{
+    font-family: 'Marcellus SC', serif; 
+}
+.bodyadmin{
+    background-color: #e5dbcc;
+}
+.fondoeliminar{
+    border:1px solid white;
+    background-color: white;
+}
+/*donar*/
+.letrasdonaciones{
+    font-family: 'Marcellus SC', serif;
+}
