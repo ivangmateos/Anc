@@ -1,0 +1,13 @@
+FACTURA DEL CLIENTE 
+------------------------------------
+Datos del cliente:
+Fecha:2022.06.20_03.18.57
+Usuario: prueba
+Nombre: prueba
+Telefono: 255-255-255
+------------------------------------
+Resumen del Pedido:
+Rascador: 60€
+------------------------------------
+TOTAL A PAGAR: 60€
+

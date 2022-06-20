@@ -22,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
             <div class="container">
-                <a href="../index.php" class="navbar-brand"><img class="imagen" src="../img/logo.png"></a>
+                <a href="../index.html" class="navbar-brand"><img class="imagen" src="../img/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -30,17 +30,33 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalLogin" href="#">Accede<span class="visually-hidden">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" data-bs-toggle="modal"
+                                data-bs-target="#modalLogin" href="#">Accede<span
+                                    class="visually-hidden">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="../Sinacceder/Registro.php" class="nav-link active" aria-current="page">Registrate</a>
+                            <a href="../Sinacceder/registro.html" class="nav-link active"
+                                aria-current="page">Registrate</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Adoptar
+                            </a>
+                            <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="../Sinacceder/perros.html" class="nav-link active"
+                                        aria-current="page">Perros</a></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../Sinacceder/gatos.html" class="nav-link active"
+                                        aria-current="page">Gatos</a>
+                                </li>
+                            </ul>
                         <li class="nav-item">
-                            <a href="../Sinacceder/adoptar.php" class="nav-link active" aria-current="page">Adoptar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Sinacceder/conocenos.html" class="nav-link active" aria-current="page">Conocenos</a>
+                            <a href="../Sinacceder/conocenos.html" class="nav-link active"
+                                aria-current="page">Conocenos</a>
                         </li>
                         <li class="nav-item">
                             <a href="../Sinacceder/donar.html" class="nav-link active" aria-current="page">Donar</a>
@@ -53,24 +69,31 @@
         <div class="modal fade" id="modalLogin">
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="" class="btn btn-primary btn-block col-12" role="button">
+                            <i class="bi bi-facebook"> Inicia sesion con facebook</i>
+                        </a>
+                    </div>
                     <div class="modal-body">
-                        <form action="../Php/Login_Usuario.php" method="Post">
+                        <p>o bien</p>
+                        <form>
                             <div class="form-group">
-                                <img class="imagen logo" src="../img/logo.png">
-                                <label class="letrasennegro" for="inputUsuario">Usuario</label>
-                                <input type="usuario" class="form-control" id="inputUsuario" name="usuario"
-                                    placeholder="Escribe tu usuario" required>
+                                <label class="letrasennegro" for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail"
+                                    placeholder="Escribe tu email...">
                             </div>
                             <div class="form-group mb-2">
                                 <label class="letrasennegro" for="inputPassword">Contraseña</label>
-                                <input type="password" class="form-control" id="inputPassword" name="contrasena"
-                                    placeholder="Escribe tu contraseña..." required>
+                                <input type="password" class="form-control" id="inputPassword"
+                                    placeholder="Escribe tu contraseña...">
                             </div>
-                            <button type="submit" class="btn  btn-success btn-block col-12 decoracionbotones"
-                                id="iniciarsesion">Iniciar sesion</button>
-                            <hr>
-                            <a href="../Sinacceder/Registro.php" class="btn  btn-success btn-block col-12 decoracionbotones">Registrate</a>
+                            <button type="submit" class="btn  btn-success btn-block col-12"> <a id="iniciarsesion"
+                                    class="decoracionbotones" href="../Accediendo/index.html">Iniciar
+                                    sesion</a></button>
                         </form>
+                    </div>
+                    <div class="modal-footer">
+                        <p><a href="">¿Has olvidado la contraseña?</a></p>
                     </div>
                 </div>
             </div>
