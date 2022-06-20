@@ -21,63 +21,52 @@
 
 <body>
     <!--Bloque-Cabecera-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-            <div class="container">
-                <a href="../index.php" class="navbar-brand"><img class="imagen" src="../img/logo.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#modalLogin" href="#">Accede<span class="visually-hidden">(current)</span></a>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <div class="container">
+            <a href="../Accediendo/index.php" class="navbar-brand"><img class="imagen" src="../img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                            <span class="nav-link active" id="bordenombre">
+                                <?php include_once("../Php/Clase_Usuario.php");
+                                session_start();
+                                if($_SESSION["usuario"]==null){
+                                    header("location:../index.php");
+                                }
+                                $usu = $_SESSION["usuario"]->getUsuario();
+                                echo $usu;
+                                ?>
+                            </span>
                         </li>
-                        <li class="nav-item">
-                            <a href="../Sinacceder/Registro.php" class="nav-link active" aria-current="page">Registrate</a>
+                    <li class="nav-item">
+                        <a href="" class="nav-link active" aria-current="page">Editar
+                            perfil</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="../Accediendo/adoptar.php" class="nav-link active" aria-current="page">Adoptar</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="../Sinacceder/adoptar.php" class="nav-link active" aria-current="page">Adoptar</a>
+                    <li class="nav-item">
+                            <a href="../Accediendo/tienda.php" class="nav-link active" aria-current="page">Tienda</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="../Sinacceder/conocenos.html" class="nav-link active" aria-current="page">Conocenos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Sinacceder/donar.html" class="nav-link active" aria-current="page">Donar</a>
-                        </li>
-                            </ul>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!--Ventana Modal de login-->
-        <div class="modal fade" id="modalLogin">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <form action="../Php/Login_Usuario.php" method="Post">
-                            <div class="form-group">
-                                <img class="imagen logo" src="../img/logo.png">
-                                <label class="letrasennegro" for="inputUsuario">Usuario</label>
-                                <input type="usuario" class="form-control" id="inputUsuario" name="usuario"
-                                    placeholder="Escribe tu usuario" required>
-                            </div>
-                            <div class="form-group mb-2">
-                                <label class="letrasennegro" for="inputPassword">Contraseña</label>
-                                <input type="password" class="form-control" id="inputPassword" name="contrasena"
-                                    placeholder="Escribe tu contraseña..." required>
-                            </div>
-                            <button type="submit" class="btn  btn-success btn-block col-12 decoracionbotones"
-                                id="iniciarsesion">Iniciar sesion</button>
-                            <hr>
-                            <a href="../Sinacceder/Registro.php" class="btn  btn-success btn-block col-12 decoracionbotones">Registrate</a>
-                        </form>
-                    </div>
-                </div>
+                    <li class="nav-item">
+                        <a href="../Accediendo/conocenos.php" class="nav-link active" aria-current="page">Conocenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Accediendo/donar.php" class="nav-link active" aria-current="page">Donar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Php/Cerrar_Sesion.php" class="nav-link active" aria-current="page"><i
+                                class="bi bi-box-arrow-right  iconosalir"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
     </header>
     <!--Bloque-texto donar-->
     <section id="title-enroll">

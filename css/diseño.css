@@ -2,6 +2,10 @@
 .iconosalir:hover{
    color:black;
 }
+.logo{
+   display: block;
+   margin: auto;
+}
 .textoadoptanocompres{
     font-family: 'Bebas Neue', cursive;
 }
@@ -14,7 +18,7 @@
     text-align: center;
 }
 #carouselExampleFade img{
-    height:82.4vh;
+    height:80.4vh;
 }
 
 .imagenesdeinicio{
@@ -31,7 +35,6 @@
 }
 
 .alinearlasletras{
-   
     text-align: center;
     height: 8vh;
     color: black;
@@ -39,25 +42,45 @@
 .letrasennegro{
     font-weight: bold;
 }
+
+#bordenombre{
+    color: #0d6efd;
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: center;
+    height: 40px;
+    padding-top: 4px;
+    background-color: white;
+    border-radius: 22px;
+	border:1px solid #afcde3;
+ }
+.navbar-dark .navbar-nav .nav-link:hover,.navbar-dark:hover,#navbarDropdownMenuLink:hover,.dropdown-item:hover{
+   color: black;
+}
+
 /*Perros*/
 .perrosparaAdoptar{
   text-align: center;
+ 
 }
+
+
 .paddingperros{
     padding-bottom: 20%;
 }
 .centraradoptaperros{
-    text-align: center;
+    text-align: center; 
     padding-bottom: 1%;
     font-family: 'Marcellus SC', serif;
 }
 
 .imagenesperrosadoptar{
-    width: 60%;
+    width: 100%;
+    height: 60vh;
     padding-bottom: 15%;
 }
 .modalperros{
-    width: 50%;
+    width: 70%;
 }
 .modalperroscenter{
       justify-content: center;
@@ -72,50 +95,18 @@ color: white;
 .decoracionbotones:hover{
     color:black;
 }
-
+.tamañotdproducto{
+    width: 23%;
+}
 .imagenesperrosadoptar:hover{
 opacity: 70%;
  }  
-
-/*Gatos*/
-.modalgatos{
-    width: 50%;
-  
-}
-.bodygato{
-    background-color: #e5dbcc;
-   }
-.paddinggatos{
-    padding-bottom: 20%;
-}
-.modalgatoscenter{
-    justify-content: center;
-}
-.gatosparaAdoptar{
-    text-align: center;
-
-  }
-  .centraradoptagatos{
-      text-align: center;
-      padding-bottom: 1%;  
-        font-family: 'Marcellus SC', serif;
-  }
-
-  .imagenesgatosadoptar{
-      width: 60%;
-      padding-bottom: 15%;
-  }
-
-.imagenesgatosadoptar:hover{
-        opacity: 70%;
-         }      
-
   /*Registro*/
   #discussions{
       padding-bottom: 1%;
   }
 
-  .datosbasicos,.datosextras,.datosdecontacto{
+  .datosbasicos,.datosextras,.datosdecontacto,.datosdelproducto{
     margin-top: 1%;
     font-family: 'Courier Prime', monospace; 
     display: block;
@@ -151,10 +142,18 @@ opacity: 70%;
     font-weight: bold;
     font-size: 1.75rem;
 }
+.datosdelproducto>p{
+    font-family: 'Marcellus SC', serif; 
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
 .bodyregistro{
     background-image: url("../img/60-606107_huella-de-perro-png-fondos-de-huellas-de.png");
 }
-
+.bodyfondo{
+    background-image: url("../img/60-606107_huella-de-perro-png-fondos-de-huellas-de.png");
+}
 .contenedorletras{
     font-weight: bold;
 }
@@ -162,6 +161,116 @@ opacity: 70%;
     text-decoration: none;
     color: white;
 }
+.borderegistro{
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+.CampoDesplegable{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+/*Validaciones*/
+.error{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid red;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .usuariomodificado,.mascotamodificada,.productomodificado,.peticionadoptar,.administraciontexto{
+      text-align: center;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid green;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+.carritovacio{
+  text-align: center;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid red;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.modal-footerModificado{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    padding: 0.75rem;
+    padding-bottom: 3%;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+  .LimpiarError,.formato{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+.letrasvalidacion{
+      color:red;
+      font: bold;
+  }
 /*¿Que hacemos?*/
 .imagenquehacemos{
     width:57%;
@@ -180,8 +289,16 @@ opacity: 70%;
 }
 /*Administrarmascotas*/
 .marginbot{
-  padding-bottom: 20%;
+ padding-bottom:20%;
 }
+.marginbotadoptar{
+    padding-bottom:2%;
+   }
+   .modal-bodyresponsive{
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}  
 .letras{
     font-family: 'Marcellus SC', serif; 
 }
@@ -196,3 +313,126 @@ opacity: 70%;
 .letrasdonaciones{
     font-family: 'Marcellus SC', serif;
 }
+/*Tienda*/
+.footerfactura{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.carrito{
+    display: none;
+}
+#margen{
+    margin-bottom: 2%;
+}
+.imagenestienda{
+    height: 300px;
+}
+.imagenesproductos{
+    height:200px;
+    width: 200px;
+}
+.imagenesanimales{
+    height:200px;
+    width: 200px;
+}
+
+
+.cestatienda{
+    width: 750px;
+}
+#OptionOtro{
+    display: none;
+}
+.marginbottienda{
+    padding-bottom:10%;
+}
+.tamaño{
+    width: 25%;
+}
+.marginbotadmin{
+    padding-bottom: 10%;
+}
+.marginbotmascotas{
+    padding-bottom: 12%;
+}
+.marginbotmascota{
+    padding-bottom: 12%;
+}
+
+@media (max-width: 990px){
+    .footerfactura{
+        position: fixed;
+    
+    }
+    #margen{
+        margin-bottom: 20%;
+    }
+    .tiendaresponsive{
+    display: none;
+}
+.floatcesta{
+    float:right;
+}
+.carrito{
+    display: block;
+}
+.col-sm-4 {
+    width: 60%;
+    }
+}
+
+@media (max-width: 670px){
+.col-sm-4 {
+width: 100%;
+}
+.marginbotadoptar{
+    padding-bottom:15%;
+}
+.marginbottienda{
+    padding-bottom:30%;
+}
+.marginbotadmin{
+    padding-bottom: 35%;
+}
+.marginbotusu{
+    padding-bottom: 40%;
+}
+.marginbotmascota{
+    padding-bottom: 40%;
+}
+.responsive{
+    display:none;
+}
+.marginbotAñadirYEditarmascota{
+    padding-bottom: 18%;
+}
+.imagenesresponsive{
+    height:70px;
+    width: 70px;
+}
+.marginbotmascotas{
+    padding-bottom:40%;
+}
+.table>:not(caption)>*>*{
+    padding:1%;
+}
+.modalperros{
+    width: 150px;
+    height: 22vh;
+}
+.modal-bodyresponsive{
+    font-size:80%;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+}
+
+@media (max-width: 1540px){
+#carouselExampleFade img{
+    height:75.5vh;
+}
+    }
